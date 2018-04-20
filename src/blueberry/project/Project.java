@@ -241,7 +241,6 @@ public class Project {
 					}
 					input.close();
 				} catch (IOException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 				
@@ -277,7 +276,6 @@ public class Project {
 					}
 					input.close();
 				} catch (IOException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 				
