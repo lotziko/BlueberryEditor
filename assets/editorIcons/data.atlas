@@ -1,0 +1,380 @@
+
+data.png
+size: 256,64
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+arrowDown
+  rotate: false
+  xy: 42, 48
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+arrowUp
+  rotate: false
+  xy: 202, 48
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+darkBackground
+  rotate: false
+  xy: 49, 25
+  size: 5, 5
+  split: 2, 2, 2, 2
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+eraserIcon
+  rotate: false
+  xy: 74, 48
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+exportIcon
+  rotate: false
+  xy: 122, 32
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+folderIcon
+  rotate: false
+  xy: 26, 32
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+frameButton
+  rotate: false
+  xy: 234, 36
+  size: 12, 12
+  split: 1, 1, 1, 1
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+grayStandardWindow
+  rotate: false
+  xy: 31, 12
+  size: 7, 7
+  split: 3, 3, 3, 3
+  orig: 7, 7
+  offset: 0, 0
+  index: -1
+grayTopStandardBackground
+  rotate: false
+  xy: 248, 46
+  size: 3, 7
+  split: 1, 1, 3, 3
+  orig: 3, 7
+  offset: 0, 0
+  index: -1
+gridIcon
+  rotate: false
+  xy: 170, 48
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+groupBorder
+  rotate: false
+  xy: 56, 27
+  size: 3, 3
+  split: 1, 1, 1, 1
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+imageBackgroundOver
+  rotate: false
+  xy: 31, 2
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+imageBackgroundUp
+  rotate: false
+  xy: 248, 41
+  size: 3, 3
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+layerCheckDown
+  rotate: false
+  xy: 218, 32
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+layerListBackground
+  rotate: false
+  xy: 253, 48
+  size: 1, 5
+  split: 0, 0, 2, 2
+  orig: 1, 5
+  offset: 0, 0
+  index: -1
+layerOff
+  rotate: false
+  xy: 154, 32
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+layerOn
+  rotate: false
+  xy: 138, 48
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+layerOver
+  rotate: false
+  xy: 26, 48
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+layersPaneBorder
+  rotate: false
+  xy: 248, 36
+  size: 3, 3
+  split: 1, 1, 1, 1
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+minus
+  rotate: false
+  xy: 31, 21
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+newIcon
+  rotate: false
+  xy: 218, 48
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+newLayer
+  rotate: false
+  xy: 58, 48
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+nullTexture
+  rotate: false
+  xy: 26, 28
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+objectIcon
+  rotate: false
+  xy: 138, 32
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+opacityBackground
+  rotate: false
+  xy: 2, 10
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+openIcon
+  rotate: false
+  xy: 170, 32
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+paintIcon
+  rotate: false
+  xy: 90, 32
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+pickerIcon
+  rotate: false
+  xy: 90, 48
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+plus
+  rotate: false
+  xy: 20, 17
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+previewPaneBorder
+  rotate: false
+  xy: 234, 50
+  size: 12, 12
+  split: 1, 1, 1, 1
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+removeLayer
+  rotate: false
+  xy: 186, 32
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+resizeIcon
+  rotate: false
+  xy: 106, 32
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+runIcon
+  rotate: false
+  xy: 186, 48
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+saveIcon
+  rotate: false
+  xy: 74, 32
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+selectorIcon
+  rotate: false
+  xy: 202, 32
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+spriteIcon
+  rotate: false
+  xy: 106, 48
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+standardWindowBackground
+  rotate: false
+  xy: 253, 42
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+tabChecked
+  rotate: false
+  xy: 42, 25
+  size: 5, 5
+  split: 2, 2, 2, 2
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+tabOver
+  rotate: false
+  xy: 9, 3
+  size: 5, 5
+  split: 2, 2, 2, 2
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+tabUp
+  rotate: false
+  xy: 2, 3
+  size: 5, 5
+  split: 2, 2, 2, 2
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+tileIcon
+  rotate: false
+  xy: 58, 32
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+tileRemove
+  rotate: false
+  xy: 253, 45
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+tilemapIcon
+  rotate: false
+  xy: 122, 48
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+vis-check
+  rotate: false
+  xy: 154, 48
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+vis-check-tick
+  rotate: false
+  xy: 42, 32
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+windowBackground
+  rotate: false
+  xy: 31, 7
+  size: 3, 3
+  split: 1, 1, 1, 1
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+windowBlueBackground
+  rotate: false
+  xy: 20, 28
+  size: 4, 34
+  split: 0, 0, 28, 0
+  orig: 4, 34
+  offset: 0, 0
+  index: -1
+windowBlueBorderBackground
+  rotate: false
+  xy: 2, 28
+  size: 9, 34
+  split: 4, 4, 28, 1
+  orig: 9, 34
+  offset: 0, 0
+  index: -1
+windowBlueGrayBackground
+  rotate: false
+  xy: 13, 28
+  size: 5, 34
+  split: 2, 2, 28, 2
+  orig: 5, 34
+  offset: 0, 0
+  index: -1
+windowFrame
+  rotate: false
+  xy: 20, 6
+  size: 9, 9
+  split: 4, 4, 4, 4
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+windowNoBorderBlueBackground
+  rotate: false
+  xy: 248, 55
+  size: 5, 7
+  split: 2, 2, 3, 2
+  orig: 5, 7
+  offset: 0, 0
+  index: -1
