@@ -32,6 +32,9 @@ public class Tilelayer implements Cloneable {
 		return tileObjects;
 	}
 	
+	public void setTiles(Tile[][] tiles) {
+		tileObjects = tiles;
+	}
 	public String getName() {
 		return name;
 	}
@@ -55,8 +58,8 @@ public class Tilelayer implements Cloneable {
 	public void draw(Batch batch, float x, float y, float scale) {
 		for (int i = 0; i < width; i++) {
 			for (int j = 0; j < height; j++) {
-				if (tileObjects[i][height-j-1] != null) {
-					Texture image = tileObjects[i][height-j-1].getImage();
+				if (tileObjects[i][height - j - 1] != null) {
+					Texture image = tileObjects[i][height - j - 1].getImage();
 					batch.draw(image, x + i * cellWidth * scale, y + j * cellHeight * scale, image.getWidth()*scale, image.getHeight()*scale);
 				}
 			}

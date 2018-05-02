@@ -150,13 +150,17 @@ public class Tilemap {
 		this.cellWidth = cellWidth;
 		this.cellHeight = cellHeight;
 		layers = new ArrayList<>();
+		if (layers.size() == 0)
 		currentLayer = addLayer("test");
 	}
 
 	public Tilemap(Tilemap data) {
 		this(data.width, data.height, data.cellWidth, data.cellHeight);
-		layers = data.layers;
-		currentLayer = data.currentLayer;
+		for(Tilelayer layer : data.layers) {
+			Tilelayer temp = addLayer(layer.name);
+			temp.setTiles(layer.getTiles().clone());
+		}
+		currentLayer = layers.get(0);
 	}
 	
 }

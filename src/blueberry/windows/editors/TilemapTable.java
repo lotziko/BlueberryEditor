@@ -5,6 +5,7 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer.ShapeType;
+import com.badlogic.gdx.math.Matrix4;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 import com.badlogic.gdx.scenes.scene2d.utils.Drawable;
@@ -18,7 +19,7 @@ public class TilemapTable extends Table {
 
 	private Tilemap tilemap;
 	private int originalWidth, originalHeight;
-	private Drawable removeTile = UiAssetsLoader.getDrawable("tileRemove");
+	private Drawable removeTile = UiAssetsLoader.getDrawable("tileRemove"), selectionRectangle = UiAssetsLoader.getNinepatchDrawable("selectionRectangle");
 	
 	@Override
 	public void draw(Batch arg0, float arg1) {
@@ -62,6 +63,12 @@ public class TilemapTable extends Table {
 		}
 	}
 
+	public void drawSelectionRectangle(Batch batch, int x1, int y1, int x2, int y2) {
+		float width = (x2 - x1) * tilemap.getCellWidth() * getScaleX(), height = (y2 - y1) * tilemap.getCellHeight() * getScaleY();
+		if (width != 0 && height != 0)
+		selectionRectangle.draw(batch, getX() + x1 * tilemap.getCellWidth() * getScaleX(), getY() + y1 * tilemap.getCellHeight() * getScaleY(), width, height);
+	}
+	
 	public void drawTileShadow(Batch batch, Tile tile, int x, int y) {
 		Color color = batch.getColor();
 		Color alphaColor = new Color(color);
